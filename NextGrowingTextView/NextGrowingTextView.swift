@@ -147,7 +147,7 @@ open class NextGrowingTextView: UIView {
 
   @available(*, unavailable)
   public required init?(coder: NSCoder) {
-    super.init(coder: coder)
+    init()
   }
   
   private func update(by state: State) {
